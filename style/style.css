@@ -87,7 +87,7 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-main section{
+main section {
   margin-top: 130px;
 }
 /* about section styles */
@@ -139,4 +139,54 @@ main section{
   color: #757575;
   font-size: 16px;
   font-weight: 400;
+}
+/* resume related styles  */
+.resumeContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+.resumeTitles {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resumeTitle {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+
+  margin-top: 50px;
+}
+.resumeItemDescription {
+  color: #757575;
+  font-size: 16px;
+}
+.resumeItemInstitute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.resumeItemCompany {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.btns {
+  border-radius: 5px;
+
+  
+  background: #fd6e0a;
+  color: #fff;
+  border: 0;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 35px 19px 36px;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
