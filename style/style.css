@@ -173,20 +173,41 @@ main section {
   font-size: 20px;
   font-weight: 600;
 }
-.btns {
-  border-radius: 5px;
-
-  
-  background: #fd6e0a;
-  color: #fff;
-  border: 0;
-  font-weight: 700;
-  font-size: 20px;
-  padding: 18px 35px 19px 36px;
-}
 .btn{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+}
+
+/* footer area style  */
+
+footer{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px 200px;
+  margin-top: 100px;
+}
+.footerCollumn{
+  width: 50%;
+
+}
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #757575;
+
+}
+.contactForm input, textarea{
+  padding: 18px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  resize: none;
+}
+
+.contactBtn{
+  width: 40%;
 }
