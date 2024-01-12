@@ -144,7 +144,7 @@ main section {
 .resumeContainer {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 100px;
   align-items: center;
 }
 .resumeTitles {
