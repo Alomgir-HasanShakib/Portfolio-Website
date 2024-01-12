@@ -211,3 +211,9 @@ footer{
 .contactBtn{
   width: 40%;
 }
+.socialLink{
+  text-align: center;
+}
+.socialLink a{
+  margin-right: 20px;
+}
